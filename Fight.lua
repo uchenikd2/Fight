@@ -295,7 +295,7 @@ function getTemplateContents(races)
 end
 
 -- ьюакнм
-local nametemp = 'Fight! 1.4 [' .. stack ..'xp]'
+local nametemp = 'Fight! 1.4'
 
 function unitsorr()
 	if units == 0 then
