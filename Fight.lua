@@ -295,7 +295,7 @@ function getTemplateContents(races)
 end
 
 -- ШАБЛОН
-local nametemp = 'Fight! 1.4'
+local nametemp = 'Fight! 1.4 [' .. stack ..'xp]'
 
 function unitsorr()
 	if units == 0 then
@@ -528,7 +528,7 @@ end
 
 
 template = {
-	name = 'Fight! 1.4',
+	name = 'Fight!',
 	description = 'ПРАВИЛА:\n- финалка в первый день\n- игрок выходит из города\n- второй игрок нападает\n- без воров и жезловиков\nСпасибо за поддержку! Карта Тинькофф: 2200700846776804',
 	minSize = 48,
 	maxSize = 48,
